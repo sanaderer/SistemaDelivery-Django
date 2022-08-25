@@ -34,6 +34,7 @@ class Produto(models.Model):
     adicionais = models.ManyToManyField(Adicional, blank=True)
     ativo = models.BooleanField(default=True)
 
+    #String -> tag HTML
     @mark_safe
     def icone(self):
         return f'<img width="30px" src="/media/{self.img}">'
