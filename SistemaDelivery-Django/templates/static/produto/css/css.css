@@ -11,7 +11,7 @@
 
 .tituloProduto{
 
-font-size: 60px;
+    font-size: 60px;
 }
 
 .subTituloProduto{
@@ -21,8 +21,8 @@ font-size: 60px;
 
 .bordaBottom{
 
-border-bottom: 1px solid gray;
-padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
 
 }
 
@@ -55,11 +55,11 @@ body{
 .cont{
     
     overflow:auto;
-    width: 350px;
+    width: 300px;
 
   }
 
-.cont img {
+  .cont img {
     max-width: 100%;
     -moz-transition: all 2s;
     -webkit-transition: all 2s;
