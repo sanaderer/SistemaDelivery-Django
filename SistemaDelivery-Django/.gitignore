@@ -4,3 +4,5 @@ db.sqlite3
 venv
 /venv/
 ../venv
+./venv 
+/home/sabrina-naderer/Área de Trabalho/Django-Project/SistemaDelivery-Django/venv
